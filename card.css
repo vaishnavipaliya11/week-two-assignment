@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     margin-left: 0.5rem;
     border-radius: 10px;
+    margin: auto;
 }
 
 .main-img{
@@ -38,7 +39,7 @@
     font-size: 1rem;
     align-items: center;
     margin: 0.5rem;
-margin-top: -0.5rem;
+margin-top:auto;
 margin-bottom: 1rem;
 }
 
@@ -54,4 +55,47 @@ button {
 }
 button:hover{
     background-color:var(--secondary);
+}
+
+
+/* text over media css */
+
+.card-initial{
+    display: flex;
+    position: relative;
+    height: auto;
+    width: auto;
+    border: 1px;
+}
+
+#card-img{
+    display: flex;
+    position: relative;
+    width:100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.card-container{
+   position: relative;
+}
+
+.card-heading{
+    position:absolute;
+    top: 9rem;
+    color: white;
+    margin-left: 0.5rem;
+    font-weight: 200;
+}
+.card-sub-heading{
+    position:absolute;
+    top: 11rem;
+    color: white;
+    margin-left: 0.5rem;
+    font-weight: 100;
+}
+
+.main-class.height{
+    background-color:yellow;
+    height: 10rem;
 }
