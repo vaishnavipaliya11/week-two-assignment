@@ -1,12 +1,18 @@
+:root{
+    --primary:#f1f5f9;
+    --heading-color: #5b21b6;
+    --secondary:#e2e8f0;
+}
+
 .main-class{
-    display: block;
     position: relative;
-    max-width:18rem;
+    max-width: 22rem;
     min-height: 23rem;
-    background-color: #f1f5f9;
+    background-color: var(--primary);
     box-sizing: border-box;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     margin-left: 0.5rem;
+    border-radius: 10px;
 }
 
 .main-img{
@@ -43,9 +49,9 @@ button {
         border: none;
         cursor:pointer;
         overflow: hidden;
-        color: #5b21b6;   
+        color:var(--heading-color);   
              
 }
 button:hover{
-    background-color:#e2e8f0;
+    background-color:var(--secondary);
 }
