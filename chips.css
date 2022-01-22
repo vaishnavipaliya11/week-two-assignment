@@ -1,18 +1,18 @@
 .basic-chips{
-    display: inline-flex;
+    align-items: center;
     border-radius: 30%;
     border: 2px;
     background-color:rgb(226, 226, 221);
-    flex-direction: column;
     border: none;
-    font-size: 16px;
-    color:rgb(17, 17, 17);
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
-    padding: 0.5rem;
-    margin: 1rem;
-    width: fit-content;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
     height: fit-content;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
 }
